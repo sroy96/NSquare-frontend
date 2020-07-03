@@ -1,0 +1,123 @@
+.landing_header {
+  background-color: #020529 !important;
+}
+
+.landing_content {
+  background-color: #020529 !important;
+  min-height: 100vh !important;
+  height: auto !important;
+}
+
+.landing_footer {
+  background-color: #020529 !important;
+  min-height: 10vh !important;
+}
+
+.header_buttons {
+  float: right;
+}
+
+.buttons_top {
+  border: none !important;
+  background-color: #020529 !important;
+  color: white !important;
+  width: 90px !important;
+  height: 40px !important;
+}
+
+.main_typo {
+  margin-left: 12%;
+  margin-top: 14%;
+  font-size: 4vw;
+  color: #ffffff;
+  font-weight: 900;
+  text-align: left;
+  font-family: Muli, BlinkMacSystemFont, -apple-system, "Roboto", "Oxygen", "Fira Sans", sans-serif;
+  line-height: 115%;
+}
+
+.second_type {
+  margin-left: 12%;
+  color: rgba(241, 241, 242, 0.78);
+  text-align: left;
+  max-width: 70%;
+  font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.landing_search {
+  margin-top: 5%;
+  margin-left: 12% !important;
+  max-width: 70%;
+  background-color: #020529 !important;
+}
+
+.space {
+  margin-top: 5%;
+}
+
+.top-image-landing {
+  margin-top: 25%;
+  margin-left: 25%;
+  width: 400px;
+  float: bottom;
+}
+
+.email_submit_button {
+  background-color: #3d80e4 !important;
+  color: white !important;
+  border: #3d80e4 !important;
+  height: 40px !important;
+  font-weight: bold !important;
+  font-size: larger !important;
+  float: left;
+}
+
+.tutor-header {
+  text-align: center;
+  font-family: Muli, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttons_top {
+    visibility: hidden;
+  }
+  .email_submit_button {
+    width: 50%;
+  }
+
+  .login_homepage {
+    visibility: hidden;
+  }
+
+  .top-image-landing {
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 5%;
+    visibility: hidden;
+  }
+}
+
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+
+.testimonial-card {
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+  max-width: 70%;
+  display: flex !important;
+}
+
+.company-images {
+  justify-content: space-evenly !important;
+  display: flex;
+  flex-wrap: nowrap;
+}
